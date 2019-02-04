@@ -1,6 +1,6 @@
 # eastoriented/php-block [![Build Status](https://travis-ci.org/eastoriented/php-block.svg?branch=master)](https://travis-ci.org/eastoriented/php-block) [![Coverage Status](https://coveralls.io/repos/github/eastoriented/php-block/badge.svg?branch=master)](https://coveralls.io/github/eastoriented/php-block?branch=master)
 
-`eastoriented/php-block` is a east oriented PHP library to execute block of code using arguments.
+`eastoriented/php/block` is a east oriented PHP library to execute block of code using arguments.
 All public methods in all classes return `void`.
 
 ## How to use it?
