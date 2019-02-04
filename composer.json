@@ -1,7 +1,17 @@
 {
+	"name": "eastoriented/php/block",
+	"description": "A PHP library to emulate Smalltalk block",
+	"type": "project",
+	"license": "BSD-2-Clause",
+	"authors": [
+		{
+			"name": "Frédéric Hardy",
+			"email": "frederic.hardy@mageekbox.net"
+		}
+	],
 	"require-dev": {
 		"eastoriented/library": "dev-master",
-			"atoum/atoum": "^3"
+		"atoum/atoum": "^3"
 	},
 	"autoload": {
 		"psr-4": {
