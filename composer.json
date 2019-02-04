@@ -1,5 +1,5 @@
 {
-	"name": "eastoriented/php/block",
+	"name": "eastoriented/php-block",
 	"description": "A PHP library to emulate Smalltalk block",
 	"type": "project",
 	"license": "BSD-2-Clause",
