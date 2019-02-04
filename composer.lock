@@ -96,12 +96,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eastoriented/library.git",
-                "reference": "bfc1e0b6bc9a534ff3ed3091c36501d9c5889042"
+                "reference": "04b71160cf4a62b5ca47f031ccb8b35fa2838a6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eastoriented/library/zipball/bfc1e0b6bc9a534ff3ed3091c36501d9c5889042",
-                "reference": "bfc1e0b6bc9a534ff3ed3091c36501d9c5889042",
+                "url": "https://api.github.com/repos/eastoriented/library/zipball/04b71160cf4a62b5ca47f031ccb8b35fa2838a6d",
+                "reference": "04b71160cf4a62b5ca47f031ccb8b35fa2838a6d",
                 "shasum": ""
             },
             "bin": [
@@ -119,7 +119,7 @@
                 }
             ],
             "description": "A blueprint to setup a develoment environment for library with docker",
-            "time": "2019-01-29T15:33:58+00:00"
+            "time": "2019-02-04T14:32:40+00:00"
         }
     ],
     "aliases": [],

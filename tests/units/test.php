@@ -2,7 +2,7 @@
 
 namespace eastoriented\tests\units;
 
-use mageekguy\atoum\mock;
+use atoum\mock;
 
 abstract class test extends \atoum
 {
