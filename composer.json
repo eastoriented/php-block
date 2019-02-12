@@ -1,7 +1,7 @@
 {
 	"name": "eastoriented/php-block",
 	"description": "A PHP library to emulate Smalltalk block",
-	"type": "project",
+	"type": "library",
 	"license": "BSD-2-Clause",
 	"authors": [
 		{
