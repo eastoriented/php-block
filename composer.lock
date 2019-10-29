@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d32324678d80e0f360ce51fb4bd74162",
-    "packages": [],
+    "content-hash": "e767dd2c1edafafbddd8311c58bf4792",
+    "packages": [
+        {
+            "name": "eastoriented/php-container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eastoriented/php-container.git",
+                "reference": "2d7c3dadcfb85aaba9d95bf6af1ff7a490c1919d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eastoriented/php-container/zipball/2d7c3dadcfb85aaba9d95bf6af1ff7a490c1919d",
+                "reference": "2d7c3dadcfb85aaba9d95bf6af1ff7a490c1919d",
+                "shasum": ""
+            },
+            "require": {
+                "eastoriented/php-block": "dev-master"
+            },
+            "require-dev": {
+                "atoum/atoum": "^3",
+                "eastoriented/library": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "eastoriented\\php\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Frédéric Hardy",
+                    "email": "frederic.hardy@mageekbox.net"
+                }
+            ],
+            "description": "A PHP library to iterate over values in container",
+            "time": "2019-10-04T12:16:46+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "atoum/atoum",
@@ -123,8 +164,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
+        "eastoriented/php-container": 20,
         "eastoriented/library": 20
     },
     "prefer-stable": false,

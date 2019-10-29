@@ -3,6 +3,7 @@
 	"description": "A PHP library to emulate Smalltalk block",
 	"type": "library",
 	"license": "BSD-2-Clause",
+	"minimum-stability": "dev",
 	"authors": [
 		{
 			"name": "Frédéric Hardy",
@@ -22,5 +23,8 @@
 		"psr-4": {
 			"eastoriented\\php\\tests\\units\\": "tests/units/src"
 		}
+	},
+	"require": {
+		"eastoriented/php-container": "dev-master"
 	}
 }
