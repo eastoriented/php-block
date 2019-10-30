@@ -4,49 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e767dd2c1edafafbddd8311c58bf4792",
-    "packages": [
-        {
-            "name": "eastoriented/php-container",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/eastoriented/php-container.git",
-                "reference": "a5723563336224eb83c6407112f87b4fad706a41"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eastoriented/php-container/zipball/a5723563336224eb83c6407112f87b4fad706a41",
-                "reference": "a5723563336224eb83c6407112f87b4fad706a41",
-                "shasum": ""
-            },
-            "require": {
-                "eastoriented/php-block": "dev-master"
-            },
-            "require-dev": {
-                "atoum/atoum": "^3",
-                "eastoriented/library": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "eastoriented\\php\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Frédéric Hardy",
-                    "email": "frederic.hardy@mageekbox.net"
-                }
-            ],
-            "description": "A PHP library to iterate over values in container",
-            "time": "2019-10-29T16:38:07+00:00"
-        }
-    ],
+    "content-hash": "8bd21dbcaa5e2fb5e79562c980fbbdac",
+    "packages": [],
     "packages-dev": [
         {
             "name": "atoum/atoum",
@@ -166,7 +125,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "eastoriented/php-container": 20,
         "eastoriented/library": 20
     },
     "prefer-stable": false,
