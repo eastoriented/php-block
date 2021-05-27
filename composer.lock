@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8bd21dbcaa5e2fb5e79562c980fbbdac",
+    "content-hash": "8f916aba82840bd7f12c217a7d124494",
     "packages": [],
     "packages-dev": [
         {
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/atoum/atoum.git",
-                "reference": "b6c93433a7b0b92b54c2bb9b0731d71ddc03b365"
+                "reference": "c4214d1b9a695d24a57cd1ffe874118c721b4b2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atoum/atoum/zipball/b6c93433a7b0b92b54c2bb9b0731d71ddc03b365",
-                "reference": "b6c93433a7b0b92b54c2bb9b0731d71ddc03b365",
+                "url": "https://api.github.com/repos/atoum/atoum/zipball/c4214d1b9a695d24a57cd1ffe874118c721b4b2f",
+                "reference": "c4214d1b9a695d24a57cd1ffe874118c721b4b2f",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
                 "ext-json": "*",
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
-                "php": "^5.6.0 || ^7.0.0 <7.5.0"
+                "php": "^7.2 || ^8.0"
             },
             "replace": {
                 "mageekguy/atoum": "*"
@@ -39,13 +39,14 @@
                 "ext-mbstring": "Provides support for UTF-8 strings",
                 "ext-xdebug": "Provides code coverage report (>= 2.3)"
             },
+            "default-branch": true,
             "bin": [
                 "bin/atoum"
             ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "4.x-dev"
                 }
             },
             "autoload": {
@@ -88,7 +89,11 @@
                 "test",
                 "unit testing"
             ],
-            "time": "2019-10-04T19:45:12+00:00"
+            "support": {
+                "issues": "https://github.com/atoum/atoum/issues",
+                "source": "https://github.com/atoum/atoum/tree/master"
+            },
+            "time": "2021-01-14T18:13:00+00:00"
         },
         {
             "name": "eastoriented/library",
@@ -96,14 +101,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eastoriented/library.git",
-                "reference": "29a1c281c77c20c539e4df5707b8fd33ca81818f"
+                "reference": "5e5ce4fa11ee6d3daf3dedeb5ce98b2ec2347857"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eastoriented/library/zipball/29a1c281c77c20c539e4df5707b8fd33ca81818f",
-                "reference": "29a1c281c77c20c539e4df5707b8fd33ca81818f",
+                "url": "https://api.github.com/repos/eastoriented/library/zipball/5e5ce4fa11ee6d3daf3dedeb5ce98b2ec2347857",
+                "reference": "5e5ce4fa11ee6d3daf3dedeb5ce98b2ec2347857",
                 "shasum": ""
             },
+            "default-branch": true,
             "bin": [
                 "resources/bin/eastoriented-library"
             ],
@@ -119,7 +125,11 @@
                 }
             ],
             "description": "A blueprint to setup a develoment environment for library with docker",
-            "time": "2019-10-04T10:24:14+00:00"
+            "support": {
+                "issues": "https://github.com/eastoriented/library/issues",
+                "source": "https://github.com/eastoriented/library/tree/master"
+            },
+            "time": "2021-05-03T11:24:26+00:00"
         }
     ],
     "aliases": [],
@@ -130,5 +140,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
