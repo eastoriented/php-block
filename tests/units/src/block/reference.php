@@ -1,4 +1,4 @@
-<?php namespace your\php\namepsace\here\tests\units\block;
+<?php namespace eastoriented\php\block\tests\units\block;
 
 require __DIR__ . '/../../runner.php';
 
@@ -9,7 +9,7 @@ class reference extends units\test
 	function testClass()
 	{
 		$this->testedClass
-			->implemetns('eastoriented\php\block')
+			->implements('eastoriented\php\block')
 		;
 	}
 }

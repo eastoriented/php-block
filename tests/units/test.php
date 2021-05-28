@@ -1,10 +1,8 @@
-<?php
+<?php namespace eastoriented\tests\units;
 
-namespace eastoriented\tests\units;
+use atoum\atoum\mock;
 
-use atoum\mock;
-
-abstract class test extends \atoum
+abstract class test extends \atoum\atoum\test
 {
 	function beforeTestMethod($method)
 	{
@@ -14,7 +12,5 @@ abstract class test extends \atoum
 			->allIsInterface()
 			->eachInstanceIsUnique()
 		;
-
-		return parent::beforeTestMethod($method);
 	}
 }
